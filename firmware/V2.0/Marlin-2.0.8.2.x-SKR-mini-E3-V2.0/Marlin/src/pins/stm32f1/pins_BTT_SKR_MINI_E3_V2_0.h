@@ -52,7 +52,9 @@
   #define PS_ON_PIN                        PC13  // Power Supply Control
 #endif
 
+#ifndef FAN1_PIN
 #define FAN1_PIN                           PC7
+#endif
 
 #ifndef CONTROLLER_FAN_PIN
   #define CONTROLLER_FAN_PIN               FAN1_PIN
